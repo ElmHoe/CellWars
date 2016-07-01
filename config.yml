@@ -1,0 +1,114 @@
+ # name:amount:data:probability Enchant:Power Color:R:G:B
+ # set data to -1 if you want to use default essentials data
+ # color only applies to leather armor
+config:
+   signLobby:
+      X: 0
+      Y: 0
+      Z: 0
+      Pitch: 0
+      Yaw: 0
+      World: world
+   denySignJoin: true
+   regenBlocksPerSecond: 1000
+   maxArenaTime: 900
+   scorePerGame: 1
+   scorePerKill: 1
+   scorePerWin: 10
+   maxItemsPerChest: 15
+   minItemsPerChest: 5
+   chestItems:
+   - "apple:1:-1:100"
+   - "woodsword:1:-1:50"
+   - "torch:30:-1:100"
+   - "log:30:-1:100"
+   - "dsword:1:-1:10"
+   - "ironsword:1:-1:25"
+   - "ironpick:1:-1:2"
+   - "goldsword:1:-1:50"
+   - "ichestplate:1:-1:10"
+   - "dchestplate:1:-1:5"
+   - "woodplank:30:-1:50"
+   - "dleggings:1:-1:10"
+   - "dhelmet:1:-1:10"
+   - "dboots:1:-1:10"
+   - "iboots:1:-1:10"
+   - "ileggings:1:-1:10"
+   - "ihelmet:1:-1:1"
+   - "redstonetorch:3:-1:25"
+   - "flintandsteel:1:-1:25"
+   - "steak:12:-1:100"
+   - "goldenapple:1:-1:20"
+   - "egapple:2:-1:1"
+   - "bow:1:-1:50"
+   - "arrow:4:-1:25"
+   - "arrow:6:-1:25"
+   - "arrow:14:-1:25"
+   - "xpbottle:64:-1:10"
+   - "xpbottle:32:-1:30"
+   - "xpbottle:16:-1:50"
+   - "diamondaxe:1:-1:30"
+   - "gravel:6:-1:20"
+   - "goldore:3:-1:20"
+   - "goldblock:1:-1:2"
+   - "cobweb:4:-1:5"
+   - "tnt:6:-1:10"
+   - "bookshelf:2:-1:5"
+   - "diamondblock:1:-1:1"
+   - "snowball:16:-1:15"
+   - "waterbucket:1:-1:10"
+   - "rawpork:8:-1:15"
+   - "pufferfish:1:-1:3"
+   - "bone:6:-1:5"
+   - "enderpearl:1:-1:1"
+   - "redstonedust:8:-1:8"
+   - "dboots:1:-1:1 PROTECTION_ENVIRONMENTAL:4"
+   maxItemsPerLockedChest: 10
+   minItemsPerLockedChest: 5
+   lockedChestItems:
+   - "apple:1:-1:100"
+   - "woodsword:1:-1:50"
+   - "torch:30:-1:100"
+   - "log:30:-1:100"
+   - "dsword:1:-1:10"
+   - "ironsword:1:-1:25"
+   - "ironpick:1:-1:2"
+   - "goldsword:1:-1:50"
+   - "ichestplate:1:-1:10"
+   - "dchestplate:1:-1:5"
+   - "woodplank:30:-1:50"
+   - "dleggings:1:-1:10"
+   - "dhelmet:1:-1:10"
+   - "dboots:1:-1:10"
+   - "iboots:1:-1:10"
+   - "ileggings:1:-1:10"
+   - "ihelmet:1:-1:1"
+   - "redstonetorch:3:-1:25"
+   - "flintandsteel:1:-1:25"
+   - "steak:12:-1:100"
+   - "goldenapple:1:-1:20"
+   - "egapple:2:-1:1"
+   - "bow:1:-1:50"
+   - "arrow:4:-1:25"
+   - "arrow:6:-1:25"
+   - "arrow:14:-1:25"
+   - "xpbottle:64:-1:10"
+   - "xpbottle:32:-1:30"
+   - "xpbottle:16:-1:50"
+   - "diamondaxe:1:-1:30"
+   - "gravel:6:-1:20"
+   - "goldore:3:-1:20"
+   - "goldblock:1:-1:2"
+   - "cobweb:4:-1:5"
+   - "tnt:6:-1:10"
+   - "bookshelf:2:-1:5"
+   - "diamondblock:1:-1:1"
+   - "snowball:16:-1:15"
+   - "waterbucket:1:-1:10"
+   - "rawpork:8:-1:15"
+   - "pufferfish:1:-1:3"
+   - "bone:6:-1:5"
+   - "enderpearl:1:-1:1"
+   - "redstonedust:8:-1:8"
+   - "dboots:1:-1:1 PROTECTION_ENVIRONMENTAL:4"
+   arenas:

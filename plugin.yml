@@ -1,0 +1,39 @@
+name: CellWars
+main: uk.co.ElmHoe.CellWars
+version: 2
+description: CellWars MiniGame
+load: POSTWORLD
+database: false
+softdepend: []
+depend: [HyperCloudUtils,InfoboardAPI]
+loadbefore: []
+prefix: CellWars
+author: ElmHoe
+
+commands:
+   cellwars:
+      description: Main Command for CellWars
+      usage: /cellwars <SubCmds>
+      aliases: [cw]
+      permission-message: Sorry, You do not have permission.
+   leave:
+      description: Leave an arena.
+      usage: /leave
+      aliases: []
+      permission-message: Sorry, You do not have permission.
+permissions:
+   cellwars.admin:
+      description: Allows access to /cellwars
+      default: op
+   cellwars.join:
+      description: Allows access to join arena.
+      default: true
+   cellwars.spectate:
+      description: Allows access to spectate.
+      default: true
+   cellwars.leave:
+      description: Allows access to /leave.
+      default: true
+   cellwars.chat:
+      description: Allows access to global chat.
+      default: false

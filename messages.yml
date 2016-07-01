@@ -1,0 +1,9 @@
+config:
+   messages:
+      arenaJoin: "{PLAYER} has joined {ARENA}. {PLAYERS}/{MAXPLAYERS}"
+      arenaLeave: "{PLAYER} has left the game. {PLAYERS} are left!"
+      playerDeath: "{KILLER} has killed {PLAYER}. {PLAYERS} are left!"
+      playerDeathOther: "{PLAYER} has died. {PLAYERS} are left!"
+      startOfGame: "The game has started!"
+      countdown: "The game will start in {COUNTDOWN} seconds"
+      endOfGame: "{PLAYER} has won the game, {ARENA}!"

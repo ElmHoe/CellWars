@@ -1,0 +1,241 @@
+ # name:amount:data:probability Enchant:Power Color:R:G:B
+ # set data to -1 if you want to use default essentials data
+ # color only applies to leather armor
+config:
+   kitUIslots: 9
+   kitData:
+      0:
+         name: "Baker"
+         unlockThreshold: 0
+         permission: cellwars.kit.default
+         inShop:
+            name: "&7Baker"
+            material: BREAD
+            data: 0
+            lore:
+            - "&7Baker Kit!"
+            - "&8Free Kit!"
+            - "&8--------------"
+            - "&7Bread"
+         itemData:
+         - "bread:6"
+         itemDataSlots:
+         - 8
+      1:
+         name: "Fisherman"
+         unlockThreshold: 10
+         permission: cellwars.kit.default
+         inShop:
+            name: "&9Fisherman"
+            material: FISHING_ROD
+            data: 0
+            lore:
+            - "&9Fisherman Kit!"
+            - "&8Requires a Score of 10!"
+            - "&8--------------"
+            - "&eFishing Rod"
+            - "&3Fish"
+         itemData:
+         - "fishingrod:1"
+         - "fish:3"
+         itemDataSlots:
+         - 0
+         - 8
+      2:
+         name: "Swordsman"
+         unlockThreshold: 50
+         permission: cellwars.kit.default
+         inShop:
+            name: "&7Swordsman"
+            material: IRON_SWORD
+            data: 0
+            lore:
+            - "&7Swordsman Kit!"
+            - "&8Requires a Score of 50!"
+            - "&8--------------"
+            - "&7Iron Sword"
+         itemData:
+         - "ironsword:1"
+         - "leatherhelm:1"
+         - "leatherboots:1"
+         itemDataSlots:
+         - 0
+         - 39
+         - 36
+      3:
+         name: "Archer"
+         unlockThreshold: 100
+         permission: cellwars.kit.default
+         inShop:
+            name: "&cArcher"
+            material: BOW
+            data: 0
+            lore:
+            - "&fArcher Kit!"
+            - "&8Requires a Score of 100!"
+            - "&8--------------"
+            - "&7Iron Armor"
+            - "&eBow and Arrow"
+         itemData:
+         - "ironboots:1"
+         - "ironpants:1"
+         - "ironchestplate:1"
+         - "ironhelm:1"
+         - "bow:1"
+         - "arrow:6"
+         itemDataSlots:
+         - 36
+         - 37
+         - 38
+         - 39
+         - 0
+         - 8
+      4:
+         name: "Warrior"
+         unlockThreshold: 250
+         permission: cellwars.kit.default
+         inShop:
+            name: "&eWarrior"
+            material: GOLD_SWORD
+            data: 0
+            lore:
+            - "&6Warrior Kit!"
+            - "&8Requires a Score of 250!"
+            - "&8--------------"
+            - "&7Chainmail Armor"
+            - "&6Gold Sword"
+         itemData:
+         - "chainboots:1"
+         - "chainpants:1"
+         - "chainplate:1"
+         - "chainhelm:1"
+         - "goldsword:1 DAMAGE_ALL:2"
+         itemDataSlots:
+         - 36
+         - 37
+         - 38
+         - 39
+         - 0
+      5:
+         name: "Tank"
+         unlockThreshold: 750
+         permission: cellwars.kit.default
+         inShop:
+            name: "&3Tank"
+            material: IRON_SWORD
+            data: 0
+            lore:
+            - "&3Tank Kit!"
+            - "&8Requires a Score of 750!"
+            - "&8--------------"
+            - "&7Iron Armor (&3Diamond Chestplate&7)"
+            - "&7Iron Sword"
+            - "&cStrength Potion"
+         itemData:
+         - "ironboots:1"
+         - "ironpants:1"
+         - "diamondplate:1"
+         - "ironhelm:1"
+         - "ironsword:1 KNOCKBACK:2"
+         - "potion:1:8201"
+         itemDataSlots:
+         - 36
+         - 37
+         - 38
+         - 39
+         - 0
+         - 8
+      6:
+         name: "Pyro"
+         unlockThreshold: 1500
+         permission: cellwars.kit.default
+         inShop:
+            name: "&cPyro"
+            material: TNT
+            data: 0
+            lore:
+            - "&cPyro Kit!"
+            - "&8Requires a Score of 1500!"
+            - "&8--------------"
+            - "&6Orange Leather Armor"
+            - "&cSharp II Lighter"
+            - "&6Fire Resistance Potion"
+            - "&4TNT"
+         itemData:
+         - "lighter:1 DAMAGE_ALL:2"
+         - "tnt:32 KNOCKBACK:2"
+         - "potion:1:8259"
+         - "leatherboots:1 PROTECTION_EXPLOSIONS:3 DURABILITY:5 color:255:132:0"
+         - "leatherpants:1 PROTECTION_EXPLOSIONS:3 DURABILITY:5 color:255:132:0"
+         - "leatherplate:1 PROTECTION_EXPLOSIONS:3 DURABILITY:5 color:255:132:0"
+         - "leatherhelm:1 PROTECTION_EXPLOSIONS:3 DURABILITY:5 color:255:132:0"
+         itemDataSlots:
+         - 0
+         - 1
+         - 8
+         - 36
+         - 37
+         - 38
+         - 39
+      7:
+         name: "Ninja"
+         unlockThreshold: 2500
+         permission: cellwars.kit.default
+         inShop:
+            name: "&8Ninja"
+            material: NETHER_STAR
+            data: 0
+            lore:
+            - "&8Ninja Kit!"
+            - "&8Requires a Score of 2500!"
+            - "&8--------------"
+            - "&fInvisibility Potion"
+            - "&8Black Leather Armor"
+            - "&cSharp II Stick"
+         itemData:
+         - "stick:1 DAMAGE_ALL:2"
+         - "potion:1:8238"
+         - "leatherboots:1 PROTECTION_ENVIRONMENTAL:1 DURABILITY:1 color:0:0:0"
+         - "leatherpants:1 PROTECTION_ENVIRONMENTAL:1 DURABILITY:1 color:0:0:0"
+         - "leatherplate:1 PROTECTION_ENVIRONMENTAL:1 DURABILITY:1 color:0:0:0"
+         - "leatherhelm:1 PROTECTION_ENVIRONMENTAL:1 DURABILITY:1 color:0:0:0"
+         itemDataSlots:
+         - 0
+         - 8
+         - 36
+         - 37
+         - 38
+         - 39
+      8:
+         name: "Beast"
+         unlockThreshold: 5000
+         permission: cellwars.kit.donor
+         inShop:
+            name: "&9Beast"
+            material: MONSTER_EGG
+            data: 95
+            lore:
+            - "&9Beast Kit!"
+            - "&8Requires a Score of 2500!"
+            - "&8--------------"
+            - "&3Diamond Armor"
+            - "&9Ender Pearl"
+            - "&7Wolf Egg and Bones"
+         itemData:
+         - "diamondsword:1"
+         - "diamondboots:1"
+         - "diamondpants:1"
+         - "diamondplate:1"
+         - "diamondhelm:1"
+         - "epearl:1"
+         - "bone:16"
+         - "wolfegg:1:95"
+         itemDataSlots:
+         - 0
+         - 36
+         - 37
+         - 38
+         - 39
+         - 2
+         - 7
+         - 3
